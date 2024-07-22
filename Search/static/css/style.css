@@ -1,0 +1,9 @@
+body{
+    background-image: url('/Users/ak/Downloads/temp/Extension/Search/static/img/background.jpg');
+}
+
+#container1{
+    width: 50vw;
+    height: 60vh;
+    background-color: yellow;
+}
