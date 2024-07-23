@@ -11,8 +11,6 @@ body {
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-
-
 }
 
 #mainFlex {
@@ -43,6 +41,17 @@ body {
     border: none;
     border-radius: 25px 0 0 25px;
     background-color: #0000004a;
+    box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#SearchBox:focus-visible {
+    position: inherit;
+    width: 300px;
+    height: 50px;
+    padding: 0 0 0 20px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    background-color: #2b2a2a4a;
+    outline: none;
 }
 
 #btnSearch {
@@ -52,6 +61,7 @@ body {
     height: 50px;
     background-color: #0000004a;
     position: relative;
+    box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #SearchBox:hover {
@@ -84,46 +94,3 @@ body {
     align-items: center;
 }
 
-#navBar {
-    position: fixed;
-    height: 20px;
-    width: 100vw;
-}
-
-#links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-#apps{
-    color: #2e2e2e;
-}
-#apps {
-    color: #0000008c;
-}
-.appsIcon{
-    fill: #3a3838;
-    
-}
-.appsIcon:hover{
-    fill: #0000008c;
-}
-#profileIcon{
-    border-radius: 25px;
-}
-a{
-    text-decoration: none;
-    color: #2e2e2e;
-}
-a:hover {
-    text-decoration: none;
-    color: #0000008c;
-}
-li {
-    margin: 0 15px 0 15px;
-}
-ul {
-    list-style-type: none;
-}

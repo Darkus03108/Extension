@@ -1,0 +1,57 @@
+
+#navBar {
+    position: static;
+    height: 20px;
+    width: 100vw;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#apps{
+    color: #2e2e2e;
+}
+#apps {
+    color: #0000008c;
+}
+.appsIcon{
+    fill: #3a3838;
+    
+}
+.appsIcon:hover{
+    fill: #0000008c;
+}
+#profileIcon{
+    border-radius: 25px;
+}
+#profileIcon:hover{
+    border-radius: 25px;
+    cursor: pointer;
+}
+#profileIcon:focus-visible{
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+a:hover {
+    text-decoration: none;
+    color: #0000008c;
+}
+li {
+    margin: 0 15px 0 15px;
+}
+ul {
+    list-style-type: none;
+}
+.liicon{
+    position: relative;
+    top: 5px;
+}
