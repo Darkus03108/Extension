@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -7,8 +7,15 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+
 }
-#container-bg{
+
+#mainFlex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,18 +23,19 @@ body{
     width: 100vw;
     margin: 0;
     padding: 0;
-   
+
 }
-#containerMain{
+
+#containerMain {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 30vw;
     height: 60vh;
-    border: 2px solid red;
 
 }
-#SearchBox{
+
+#SearchBox {
     position: inherit;
     width: 300px;
     height: 50px;
@@ -37,7 +45,7 @@ body{
     background-color: #0000004a;
 }
 
-#btnSearch{
+#btnSearch {
     border: none;
     border-radius: 0 25px 25px 0;
     width: 50px;
@@ -45,7 +53,8 @@ body{
     background-color: #0000004a;
     position: relative;
 }
-#SearchBox:hover{
+
+#SearchBox:hover {
     position: inherit;
     width: 300px;
     height: 50px;
@@ -55,7 +64,7 @@ body{
     background-color: #2b2a2a4a;
 }
 
-#btnSearch:hover{
+#btnSearch:hover {
     border: none;
     border-radius: 0 25px 25px 0;
     width: 50px;
@@ -63,12 +72,58 @@ body{
     background-color: #2b2a2a4a;
     position: relative;
 }
-#icon-Search{
+
+#icon-Search {
     width: 25px;
     height: 25px;
 
 }
-#schForm{
+
+#schForm {
     display: flex;
     align-items: center;
+}
+
+#navBar {
+    position: fixed;
+    height: 20px;
+    width: 100vw;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#apps{
+    color: #2e2e2e;
+}
+#apps {
+    color: #0000008c;
+}
+.appsIcon{
+    fill: #3a3838;
+    
+}
+.appsIcon:hover{
+    fill: #0000008c;
+}
+#profileIcon{
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+a:hover {
+    text-decoration: none;
+    color: #0000008c;
+}
+li {
+    margin: 0 15px 0 15px;
+}
+ul {
+    list-style-type: none;
 }
