@@ -1,4 +1,3 @@
-
 .header {
     display: flex;
     justify-content: flex-end;
@@ -16,13 +15,8 @@
 }
 
 #menuPallete {
-    display: flex;
     flex-direction: column;
     align-items: flex-end;
-    display: none;
-}
-
-#menuDisplay1 {
     display: none;
 }
 
@@ -31,13 +25,13 @@
     background-color: #2b2b2bb0;
     display: flex;
     justify-content: center;
-    width: 25vw;
-    height: 65vh;
+    width: 4in;
+    height: 3in;
     right: 10px;
     align-items: center;
     flex-direction: column;
     border-radius: 55px;
-    box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.2), inset 0px 0px 20px 10px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 11px 20px 6px rgb(0 0 0 / 30%), inset 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
 }
 
 #userPfp {
@@ -47,4 +41,31 @@
 #userName {
     color: white;
     font-weight: bold;
+}
+
+#aMgn {
+    height: 1cm;
+    width: 2.3in;
+    background-color: #575555;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2), inset 0px 0px 20px 10px rgb(0 0 0 / 36%);
+}
+#aMgn:hover {
+    height: 1cm;
+    width: 2.3in;
+    background-color: #606060;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2), inset 0px 0px 20px 10px rgb(0 0 0 / 36%);
+}
+
+#aMgn a {
+    color: #0388ff;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }

@@ -1,29 +1,25 @@
 
+
 #navBar {
     position: static;
     height: 20px;
     width: 100vw;
 }
 
-#links {
+#linkslist {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-}
-
-#apps{
-    color: #2e2e2e;
-}
-#apps {
-    color: #0000008c;
+    position: relative;
+    right: 10px;
 }
 .appsIcon{
     fill: #3a3838;
     
 }
 .appsIcon:hover{
-    fill: #0000008c;
+    fill: #0000005b;
 }
 #profileIcon{
     border-radius: 25px;
@@ -39,9 +35,12 @@
 }
 a{
     text-decoration: none;
+}
+.link{
+    text-decoration: none;
     color: #2e2e2e;
 }
-a:hover {
+.link:hover {
     text-decoration: none;
     color: #0000008c;
 }
@@ -51,7 +50,12 @@ li {
 ul {
     list-style-type: none;
 }
-.liicon{
-    position: relative;
-    top: 5px;
+#icon-btn{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
 }

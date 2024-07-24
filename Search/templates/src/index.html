@@ -13,43 +13,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-    
+
 </head>
 
 <body>
     <header id="navBar">
-        <ul id="links">
-            <li><a href="https://gmail.com/">Gmail</a></li>
-            <li><a href="https://unsplash.com/">Unsplash</a></li>
-            <li id="apps" class="liicon"><a class="appsIcon" href="#"><svg class="appsIcon" xmlns="http://www.w3.org/2000/svg"
-                        height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed">
+        <ul id="linkslist">
+            <li><a class="link" href="https://gmail.com/">Gmail</a></li>
+            <li><a class="link" href="https://unsplash.com/">Unsplash</a></li>
+            <li class="liicon"><a href="#"><svg class="appsIcon" xmlns="http://www.w3.org/2000/svg" height="30px"
+                        viewBox="0 -960 960 960" width="30px" fill="#e8eaed">
                         <path
                             d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm240 0q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm240 0q-33 0-56.5-23.5T640-240q0-33 23.5-56.5T720-320q33 0 56.5 23.5T800-240q0 33-23.5 56.5T720-160ZM240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400ZM240-640q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640Z" />
                     </svg></a></li>
-            <li class="liicon">
-                        <img src="https://static.vecteezy.com/system/resources/previews/024/293/032/non_2x/illustration-of-user-icon-in-gray-color-vector.jpg"
-                            id="profileIcon" alt="" height="40px" width="40px">
+            <button id="icon-btn" type="button">
+                <img src="https://static.vecteezy.com/system/resources/previews/024/293/032/non_2x/illustration-of-user-icon-in-gray-color-vector.jpg"
+                    id="profileIcon" alt="" height="40px" width="40px">
 
-            </li>
+            </button>
         </ul>
-        <div id="menuDisplay1">
-            <div id="menuPallete">
-                <div id="profileDropdown">
-                    <div id="profilePicture">
-                        <img src="https://static.vecteezy.com/system/resources/previews/024/293/032/non_2x/illustration-of-user-icon-in-gray-color-vector.jpg" alt="" width="100px"height="100px" id="userPfp">
-                    </div>
-                    <h2 id="userName">Hello! Ayush</h2>
-                   <a href="https://www.myaccount.google.com/"><div id="aMgn"> Manage your Google Account </div></a> 
+        <div id="menuPallete">
+            <div id="profileDropdown">
+                <div id="profilePicture">
+                    <img src="https://static.vecteezy.com/system/resources/previews/024/293/032/non_2x/illustration-of-user-icon-in-gray-color-vector.jpg"
+                        alt="" width="100px" height="100px" id="userPfp">
                 </div>
-           </div>
+                <h2 id="userName">Hello! Ayush</h2>
+                <button id="aMgn"> <a href="https://www.myaccount.google.com/">
+                        <div> Manage your Google Account </div>
+                    </a></button>
+            </div>
         </div>
     </header>
+
     </div>
     <div id="mainFlex">
         <div id="containerMain">
             <form action="https://www.google.com/search" method="GET" id=schForm>
-                <input type="text" name="q" id="SearchBox" placeholder="Enter your query here...">
+                <input type="text" name="q" id="SearchBox" placeholder="Enter your query here..."
+                    onclick="rmplaceholder()">
                 <button type="submit" id="btnSearch">
                     <?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" id="icon-Search"
                         data-name="Слой 1" viewBox="0 0 649.1 627.95">
@@ -114,6 +121,7 @@
             </form>
         </div>
     </div>
+
     <script src="{% static 'js/script.js'%}"></script>
 </body>
 
