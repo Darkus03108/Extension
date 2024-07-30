@@ -12,14 +12,14 @@
     align-items: center;
     justify-content: flex-end;
     position: relative;
-    right: 10px;
+    right: 17px;
 }
 .appsIcon{
     fill: #3a3838;
     
 }
 .appsIcon:hover{
-    fill: #0000005b;
+    fill:  #777;;
 }
 #profileIcon{
     border-radius: 25px;
@@ -38,7 +38,7 @@ a{
 }
 .link{
     text-decoration: none;
-    color: #2e2e2e;
+    color: #888888;
 }
 .link:hover {
     text-decoration: none;
@@ -58,4 +58,29 @@ ul {
     border-radius: 25px;
     justify-content: center;
     align-items: center;
+    cursor:pointer;
+}
+
+
+#image-download-button{
+    width: 88px;
+    height: 37px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#image-download-button:hover{
+    width: 88px;
+    height: 37px;
+    background-color: #d2d2d2;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#download-link{
+    color: #555;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }

@@ -1,10 +1,9 @@
+
 body {
-    
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background-image: url('https://images.unsplash.com/photo-1721406769891-f2ba651401d9?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -20,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -43,8 +42,8 @@ body {
     padding: 0 0 0 20px;
     border: none;
     border-radius: 25px 0 0 25px;
-    background-color: #0000004a;
-    box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #676767bd;
+    box-shadow: inset 0px 0px 7px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #SearchBox:focus-visible {
     position: inherit;
@@ -53,7 +52,7 @@ body {
     padding: 0 0 0 20px;
     border: none;
     border-radius: 25px 0 0 25px;
-    background-color: #2b2a2a4a;
+    background-color: #606060b3;
     outline: none;
 }
 
@@ -62,7 +61,7 @@ body {
     border-radius: 0 25px 25px 0;
     width: 50px;
     height: 50px;
-    background-color: #0000004a;
+    background-color: #676767bd;
     position: relative;
     box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -74,7 +73,10 @@ body {
     padding: 0 0 0 20px;
     border: none;
     border-radius: 25px 0 0 25px;
-    background-color: #2b2a2a4a;
+    background-color: #606060b3;
+}
+#SearchBox::placeholder{
+    color: white;
 }
 
 #btnSearch:hover {
@@ -82,7 +84,7 @@ body {
     border-radius: 0 25px 25px 0;
     width: 50px;
     height: 50px;
-    background-color: #2b2a2a4a;
+    background-color: #606060b3;
     position: relative;
 }
 
@@ -96,4 +98,3 @@ body {
     display: flex;
     align-items: center;
 }
-
