@@ -123,7 +123,7 @@ STATIC_URL = '/static/'
 
 # For development, you can use:
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+    
 ]
 
 # In production, you might collect static files into a single directory

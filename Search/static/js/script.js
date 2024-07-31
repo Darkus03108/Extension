@@ -13,11 +13,6 @@ function rmplaceholder(){
     searchBox.placeholder = " ";
 }
 
-function loadDefault(){
-    if(document.getElementById("SearchBox").placeholder === " "){
-        document.getElementById("SearchBox").placeholder = "Enter your query here...";
-    } 
-}
 
 
 function hover(){
@@ -26,3 +21,12 @@ function hover(){
 function nohover(){
     document.querySelector(".images").classList.remove('hovered');
 }
+
+function noplaceholder(){
+    document.querySelector("#SearchBox").setAttribute('placeholder', '');
+}
+function yesplaceholder(){
+    document.querySelector("#SearchBox").setAttribute('placeholder', 'Enter your query here...');
+}
+document.querySelector("#SearchBox").addEventListener('focus', noplaceholder);
+document.querySelector("#SearchBox").addEventListener('blur', yesplaceholder);

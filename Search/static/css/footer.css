@@ -1,7 +1,27 @@
 .footer{
-    height: 60px;
+    height: 80px;
     width: 100vw;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.credits {
+    padding: 10px;
+
+    display: flex;
+}
+
+img#creditsAvatar {
+    position: relative;
+    border-radius: 25px;
+}
+p.creditsName {
+    position: relative;
+    color: white;
+    left: 10px;
+}
+p.creditsName:hover{
+    color: rgb(148, 148, 148);
 }
